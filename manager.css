@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#t1 {width: 80%; transform:translateX(150px);}
+
+input[name="period"] {display: none;}
+input[name="period"]:checked+label {background: skyblue; color: #fff;}
+label.period_radio {border: 1px solid #444; padding: 5px; cursor: pointer; background: #fff; font-weight: bold;}
+
+
+input[name="showlist"] {display: none;}
+input[name="showlist"]:checked+label {background: skyblue; color: #fff;}
+label.sl_radio {border: 1px solid #444; padding: 5px; cursor: pointer; background: #f11; font-weight: bold;}
+
+
+/* div#navi {float:left; width: 260px; margin-left:-260px; margin-top:-70px; height: 500px;  background-color: #3F4254;  */
+
+/* font-family: "NanumGothic_0",sans-serif;} */
+
+/* div#side {float:left; width:1200px; height: 1000px; background-color: #eb6b60; clear: both; } */
+
+table {
+  font-family: arial, sans-serif;  border-collapse: collapse;   width: 98%; font-family: "NanumGothic_0",sans-serif;
+  margin-bottom: 50px;
+  }
+
+td, th { border: 1px solid #dddddd; text-align: left; padding: 8px;}
+
+/* tr:nth-child(even) { */
+/*   background-color: #dddddd; */
+/* } */
+
+
+/* div#navi>li {color: white; } */
+
+.bt1 {margin-left:650px; }
+	
